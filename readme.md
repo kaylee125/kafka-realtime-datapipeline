@@ -63,15 +63,15 @@ kafka를 빈 서버에서부터 처음부터 구축 및 운영해보며 kafka가
 
 kafka producer > python으로 처리
 - csv >json으로 변환 후 kafka topic 전송
-- credit_producer.py
-- title_producer.py
+- [credit_producer.py](https://github.com/kaylee125/kafka-realtime-datapipeline/blob/master/credit_producer.py)
+- [title_producer.py](https://github.com/kaylee125/kafka-realtime-datapipeline/blob/master/title_producer.py)
 
 ## Data opensearch로 전송
 
 ### 1)logstash config 파일 작성
 
-logstash_title.conf
-logstash_credit.conf
+-[logstash_title.conf](https://github.com/kaylee125/kafka-realtime-datapipeline/blob/master/logstash_title.conf)
+-[logstash_credit.conf](https://github.com/kaylee125/kafka-realtime-datapipeline/blob/master/logstash_credit.conf)
 
 ### 2)데이터 시각화
 
