@@ -38,7 +38,7 @@ csv 데이터셋을 row 단위별로 kafka에 전송하여 Kafka가 실시간 �
 
 # Data Architecture
 
-![Untitled](./images/Untitled.png)
+![Untitled](./Images/Untitled.png)
 
 ## kafka를 선택한 이유
 
