@@ -71,6 +71,7 @@ kafka producer > python으로 처리
 ### 1)logstash config 파일 작성
 
 -[logstash_title.conf](https://github.com/kaylee125/kafka-realtime-datapipeline/blob/master/logstash_title.conf)
+
 -[logstash_credit.conf](https://github.com/kaylee125/kafka-realtime-datapipeline/blob/master/logstash_credit.conf)
 
 ### 2)데이터 시각화
