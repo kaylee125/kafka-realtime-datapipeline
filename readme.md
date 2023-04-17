@@ -38,7 +38,7 @@ csv 데이터셋을 row 단위별로 kafka에 전송하여 Kafka가 실시간 �
 
 # Data Architecture
 
-[image:8B3D64EE-E2FA-4529-AD81-5A7366141033-733-00003F0B26FE5DB8/스크린샷 2023-04-17 오후 1.18.55.png]
+![Untitled](./images/Untitled.png)
 
 ## kafka를 선택한 이유
 
