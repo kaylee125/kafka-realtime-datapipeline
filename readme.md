@@ -38,7 +38,7 @@ csv 데이터셋을 row 단위별로 kafka에 전송하여 Kafka가 실시간 �
 
 # Data Architecture
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled.png)
+![Untitled](/Users/leesh970930/Desktop/kafka_project/Readme/Untitled.png)
 
 ## kafka를 선택한 이유
 
