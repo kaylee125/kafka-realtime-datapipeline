@@ -79,25 +79,25 @@ logstash_credit.conf
 
 # Data Visualization
 
-![Untitled](./Images/Untitled 1.png)
+![Untitled](./Images/1.png)
 
-![Untitled](./Images/Untitled 2.png)
+![Untitled](./Images/2.png)
 
-![Untitled](./Images/Untitled 3.png)
+![Untitled](./Images/3.png)
  
-![Untitled](./Images/Untitled 4.png)
+![Untitled](./Images/4.png)
 
 ---
 
-![Untitled](./Images/Untitled 5.png)
+![Untitled](./Images/5.png)
 
-![Untitled](./Images/Untitled 6.png)
+![Untitled](./Images/6.png)
 
-![Untitled](./Images/Untitled 7.png)
+![Untitled](./Images/7.png)
 
 ## 전체 대시보드
 
-![Untitled](./Images/Untitled 8.png)
+![Untitled](./Images/8.png)
 
 # What I learned
 
@@ -117,9 +117,9 @@ logstash로 kafka->opensearch로 데이터를 전송하기 위해 plugin config 
 **기존방식**
 csv파일을 kafka producer에서 row단위로 전송> logstash config 에서 filter을 이용해 column 지정 및 json 변환
 
-![Untitled](./Images/Untitled 9.png)
+![Untitled](./Images/9.png)
 
 **변경방식**
 csv파일을 Kafka producer에서 row->json으로 변환 후 전송>logstash에서 별다른 데이터 변환없이 바로 opensearch로 전송
 
-![Untitled](./Images/Untitled 10.png)
+![Untitled](./Images/10.png)
