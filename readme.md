@@ -2,11 +2,14 @@
 
 # 프로젝트 세부 내용
 
-### 프로젝트명: kafka를 활용한 실시간 데이터 처리를 위한 데이터파이프라인 구축 및 시각화
+### 프로젝트명: 
+kafka를 활용한 실시간 데이터 처리를 위한 데이터파이프라인 구축 및 시각화
 
-### 프로젝트 기간: 2023.04.04~2023.04.14
+### 프로젝트 기간: 
+2023.04.04~2023.04.14
 
-### 기술스택: AWS EC2,Kafka,Logstash,AWS opensearch service,python
+### 기술스택: 
+AWS EC2,Kafka,Logstash,AWS opensearch service,python
 
 # Overview
 
