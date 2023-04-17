@@ -79,25 +79,25 @@ logstash_credit.conf
 
 # Data Visualization
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%201.png)
+![Untitled](./Images/Untitled 1.png)
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%202.png)
+![Untitled](./Images/Untitled 2.png)
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%203.png)
-
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%204.png)
+![Untitled](./Images/Untitled 3.png)
+ 
+![Untitled](./Images/Untitled 4.png)
 
 ---
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%205.png)
+![Untitled](./Images/Untitled 5.png)
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%206.png)
+![Untitled](./Images/Untitled 6.png)
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%207.png)
+![Untitled](./Images/Untitled 7.png)
 
 ## 전체 대시보드
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%208.png)
+![Untitled](./Images/Untitled 8.png)
 
 # What I learned
 
@@ -117,9 +117,9 @@ logstash로 kafka->opensearch로 데이터를 전송하기 위해 plugin config 
 **기존방식**
 csv파일을 kafka producer에서 row단위로 전송> logstash config 에서 filter을 이용해 column 지정 및 json 변환
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%209.png)
+![Untitled](./Images/Untitled 9.png)
 
 **변경방식**
 csv파일을 Kafka producer에서 row->json으로 변환 후 전송>logstash에서 별다른 데이터 변환없이 바로 opensearch로 전송
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%205b808b3116fa455f8e7782e3d8cbf4b0/Untitled%2010.png)
+![Untitled](./Images/Untitled 10.png)
